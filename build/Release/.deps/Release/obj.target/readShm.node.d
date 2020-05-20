@@ -1,0 +1,1 @@
+cmd_Release/obj.target/readShm.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=readShm.node -o Release/obj.target/readShm.node -Wl,--start-group Release/obj.target/readShm/readShm.o -Wl,--end-group 
